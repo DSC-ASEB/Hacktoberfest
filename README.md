@@ -26,6 +26,26 @@ git clone https://github.com/DSC-ASEB/Hacktoberfest.git
 cd Hacktoberfest
 ```
 
+## Repository File Structure
+```
+Hacktoberfest 
+├── .gitignore
+├── C++
+│   └── README.md
+├── C
+│   └── README.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── Java
+│   └── README.md
+├── JavaScript
+│   └── README.md
+├── LICENSE
+├── Python
+│   └── README.md
+└── README.md
+```
+
 # :octocat: How to contribute?
 
 All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
@@ -39,7 +59,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on contributing.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-See the full list of [contributors](https://github.com/DSC-ASEB/Hacktoberfest/graphs/contributors) who participated in this project and statistics.
+See the full list of [contributors](CONTRIBUTING.md) who participated in this project and statistics.
 
 # :heavy_exclamation_mark: Prerequisites aka requirements
 

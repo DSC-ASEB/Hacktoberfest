@@ -25,11 +25,9 @@ Python is an easy to learn language many beginners to coding choose as their fir
 
 ## Developer Tools
   - [PythonAnywhere](https://www.pythonanywhere.com/)
-  - [PyDev](http://pydev.org/)
   - [PyCharm](http://www.jetbrains.com/pycharm/)
   - [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
   - [Pytest](http://pytest.org/latest/)
-  - [PyLint](http://www.pylint.org/)
   - [Scrapy](http://scrapy.org/)
   - [Robobrowser](http://robobrowser.readthedocs.org/en/latest/)
   - [PyGame](http://pygame.org/news.html)
