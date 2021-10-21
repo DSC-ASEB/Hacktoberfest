@@ -27,7 +27,7 @@ for _ in range(t):
     # Create an adjacency list
     adj = [[] for vertex in range(vertices)]
     for edge in range(edges):
-        start, end = map(int, input("Enter edge: ").split())
+        start, end = map(int, input("Enter edge (space separated): ").split())
         adj[start].append(end)
         adj[end].append(start) # This line should be removed for directed graph
     path = dfs_graph(vertices, adj)
