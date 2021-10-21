@@ -17,4 +17,4 @@ if a==2:
     j=j-1
    else:
     list1[j+1]=key
- print("The sorted list is list1: ",list1)
+ print('The sorted list is:',list1)
