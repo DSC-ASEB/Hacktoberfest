@@ -8,7 +8,7 @@ if a==1:
      list1[j],list1[j+1]=list1[j+1],list1[j]
  print('the sorted list is : ',list1)
 if a==2:
- list1=list(eval(input("enter the list: ")))
+ list1=list(eval(input("Enter your list (comma separated): ")))
  for i in range(1,len(list1)):
    key=list1[i]
    j=i-1
