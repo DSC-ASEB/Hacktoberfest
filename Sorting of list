@@ -1,6 +1,6 @@
 a=int(input('Enter your choice:\n 1. Bubble Sort\n 2. Insertion Sort\n'))
 if a==1:
- list1=list(eval(input("enter your list: ")))
+ list1=list(eval(input("Enter your list (comma separated): ")))
  n=len(list1)
  for i in range(n):
    for j in range(0,n-i-1):
