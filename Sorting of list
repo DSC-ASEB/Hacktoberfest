@@ -1,4 +1,4 @@
-  a=int(input('enter your choice:\n 1.bubble sort \n 2.insertion sort '))
+a=int(input('Enter your choice:\n 1. Bubble Sort\n 2. Insertion Sort\n'))
 if a==1:
  list1=list(eval(input("enter your list: ")))
  n=len(list1)
