@@ -26,7 +26,7 @@ def linsearch(ar,item):
         print('no. not found')
                 
 
-arr=eval(input('enter a list: '))
+arr=list(eval(input("Enter the list(comma seperated): ")))
 item=int(input("Enter the number to search:")) 
             
 ch=int(input('enter 1 for binary search and 2 for linear search: '))
