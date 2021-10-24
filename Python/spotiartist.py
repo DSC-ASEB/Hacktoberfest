@@ -65,4 +65,7 @@ print(f"Visit:\n\n{url}\n\nif the Artist Page was not opened automatically.")
 SCRIPT BY AADITYARENGARAJAN (GitHub @aadityarengarajan or https://aaditya.intellx.co.in)
 
 Script to Automatically Play a Spotify Artist using PlayerCTL//WebBrowser.
+
+
+To Run, run as "python spotiartist.py The Weeknd" where "The Weeknd" can be replaced with any artist of your choice.
 '''
