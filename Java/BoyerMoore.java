@@ -7,20 +7,32 @@ References:
 */
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Scanner;
+
+class Index {
+    int from;
+    int to;
+    public Index(int from, int to)
+    {
+        this.from = from;
+        this.to = to;
+    }
+}
 
 class BoyerMoore{
 	public static void main(String []args) {
         Scanner sc = new Scanner(System.in);
         final int CHARS_SIZE = 256;
         int lastOccurence[] = new int[CHARS_SIZE];
+        LinkedList<Index> indexes = new LinkedList<>();
 
         //Input
 		System.out.println("Enter text");
-        char text[] = sc.next().toCharArray();
+        char text[] = sc.nextLine().toCharArray();
 
         System.out.println("Enter search pattern");
-        char pattern[] = sc.next().toCharArray();
+        char pattern[] = sc.nextLine().toCharArray();
 
         //Preprocess
         preprocess(pattern, lastOccurence);
@@ -32,7 +44,7 @@ class BoyerMoore{
         boolean found = false;
 
         //Search
-        for(textIndex = 0; textIndex < (textLength - patternLength); textIndex += move)
+        for(textIndex = 0; textIndex <= (textLength - patternLength); textIndex += move)
         {
             move = -1;
             for(patternIndex = (patternLength - 1); patternIndex >= 0; patternIndex--)
@@ -46,15 +58,23 @@ class BoyerMoore{
             //Pattern Found
             if(move == -1)
             {
-                System.out.println("Pattern found, from index: " + textIndex + 
-                                   " to index: " + (textIndex + patternLength - 1));
                 found = true;
-                break;
+                move = patternLength;
+                indexes.add(new Index(textIndex, textIndex + patternLength - 1));
+                // break;
             }
         }
         if(!found)
         {
             System.out.println("Not Found");
+        }
+        else
+        {
+            for(Index index : indexes)
+            {
+                System.out.println("Pattern found, from index: " + index.from + 
+                " to index: " + index.to);
+            }
         }
 	}
 
