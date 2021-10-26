@@ -1,3 +1,6 @@
+# A python program to find the Top view of a binary search tree
+# Author: Dara Ekanth
+
 #first we have to build binary search tree.
 
 class Node:
