@@ -18,6 +18,7 @@ Python is an easy to learn language many beginners to coding choose as their fir
 ## Basics of Python
 
 -   [Program to add two number](./addTwo.py)
+-   [Program which covers basic list operations](./listOperations.py)
 
 ## Data Science with Python
 
