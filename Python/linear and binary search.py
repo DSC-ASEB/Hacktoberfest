@@ -30,11 +30,14 @@ arr=list(eval(input("Enter the list(comma seperated): ")))
 item=int(input("Enter the number to search:")) 
             
 ch=int(input('enter 1 for binary search and 2 for linear search: '))
-if ch==1:
-    res=binsearch(arr,item) 
-    if res>=0:
+if item in arr:
+
+    if ch==1:
+        res=binsearch(arr,item) 
         print(item,"found at position",res+1) 
-    else: 
-        print("Number not found") 
-if ch==2:
-    linsearch(arr,item)  
+
+    if ch==2:
+        linsearch(arr,item)  
+
+else:
+    print("Number not found, please check again") 
