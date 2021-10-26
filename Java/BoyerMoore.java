@@ -61,7 +61,6 @@ class BoyerMoore{
                 found = true;
                 move = patternLength;
                 indexes.add(new Index(textIndex, textIndex + patternLength - 1));
-                // break;
             }
         }
         if(!found)
