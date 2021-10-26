@@ -1,0 +1,28 @@
+button{
+border: none;
+padding: 0.5rem;
+background-color:blue;
+border-radius: 5px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+margin-left: 10px;
+}
+
+input{
+	padding:5px;
+	width: 50%;
+	text-align: center;
+	margin-left: 100px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+#wrapper{
+position: relative;
+margin-top: 40px;
+border-radius: 5px;
+}
+
+body{
+	position: relative;
+	text-align: center;
+}
