@@ -19,13 +19,16 @@ def longest_common_substring(a,b):
             else:
                 dp[i][j] = 0
     sub_string = ""
-    i = idx[0]
-    j = idx[1]
-    while dp[i][j]>0:
-        sub_string+=a[j-1]
-        i-=1
-        j-=1
-    return maxi, sub_string
+    if maxi <= 0:
+        return maxi, "lin"
+    else:
+        i = idx[0]
+        j = idx[1]
+        while dp[i][j]>0:
+            sub_string+=a[j-1]
+            i-=1
+            j-=1
+        return maxi, sub_string
 
 if __name__ == "__main__":
     a = input("Enter the string1: ")
