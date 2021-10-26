@@ -1,3 +1,6 @@
+# Python program to find the longest common substring
+# Author: Dara Ekanth
+
 def longest_common_substring(a,b):
     #we have to build a 2D matrix to make use of DP approach
     # so that I require a 2D matrix of (n+1)(m+1) size
