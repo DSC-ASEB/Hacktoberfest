@@ -31,8 +31,20 @@ class BoyerMoore{
 		System.out.println("Enter text");
         char text[] = sc.nextLine().toCharArray();
 
+        while(!(text.length > 0))
+        {
+            System.out.println("Enter Text of Length greater than zero");
+            text = sc.nextLine().toCharArray();
+        }
+
         System.out.println("Enter search pattern");
         char pattern[] = sc.nextLine().toCharArray();
+
+        while(!(pattern.length > 0))
+        {
+            System.out.println("Enter Pattern of Length greater than zero");
+            pattern = sc.nextLine().toCharArray();
+        }
 
         //Preprocess
         preprocess(pattern, lastOccurence);
@@ -59,7 +71,7 @@ class BoyerMoore{
             if(move == -1)
             {
                 found = true;
-                move = patternLength;
+                move = 1;
                 indexes.add(new Index(textIndex, textIndex + patternLength - 1));
             }
         }
