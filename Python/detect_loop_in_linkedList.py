@@ -71,7 +71,14 @@ class LinkedList:
         new_node = Node(value)
         new_node.next = self.head
         self.head = new_node
-        
+
+# Found function
+def Found(found):
+    if found:
+        print("Through Two-Pointer approch: Cycle exists in linked list")
+    else:
+        print("Through Two-Pointer approch: No cycle exists in lisked list")
+
 # Creating a linked list which doesn't contain cycle
 linked_list = LinkedList()
 linked_list.insert(20)
@@ -80,27 +87,14 @@ linked_list.insert(15)
 linked_list.insert(10)
  
 ## Checking without creating the cycle
-print("***----------------------Without Cycle in linked list-----------------------***")
-found = detectLoop_TwoPointer(linked_list.head)
-if found:
-    print("Through Two-Pointer approch: Cycle exists in linked list")
-else:
-    print("Through Two-Pointer approch: No cycle exists in lisked list")
-
-found = detectLoop_Hashing(linked_list.head)
-if found:
-    print("Through Hashing approch: Cycle exists in linked list")
-else:
-    print("Through Hashing approch: No cycle exists in lisked list")
-
-found = detectLoop(linked_list.head)
-if found:
-    print("Through marking visited nodes approch: Cycle exists in linked list\n")
-else:
-    print("Through marking visited nodes approch: No cycle exists in lisked list\n")
+print("**-------------------Without Cycle in linked list-------------------***")
+Found(detectLoop_TwoPointer(linked_list.head))      # check if cycle exists through detectLoop_TwoPointer function
+Found(detectLoop_Hashing(linked_list.head))         # check if cycle exists through detectLoop_Hashing function
+Found(detectLoop(linked_list.head))                 # check if cycle exists through detectLoop function
 
 # Output:
 """
+"***-------------------Without Cycle in linked list-------------------***"
 Through Two-Pointer approch: No cycle exists in lisked list
 Through Hashing approch: No cycle exists in lisked list
 Through marking visited nodes approch: No cycle exists in lisked list
@@ -119,27 +113,14 @@ linked_list.insert(5)
 linked_list.head.next.next.next.next.next = linked_list.head.next.next      # Node which contains the value '5' is pointing to the node containing the value '3'
 
 # Checking after creating a cycle
-print("***----------------------With Cycle in linked list-----------------------***")
-found = detectLoop_TwoPointer(linked_list.head)
-if found:
-    print("Through Two-Pointer approch: Cycle exists in linked list")
-else:
-    print("Through Two-Pointer approch: No cycle exists in lisked list")
-
-found = detectLoop_Hashing(linked_list.head)
-if found:
-    print("Through Hashing approch: Cycle exists in linked list")
-else:
-    print("Through Hashing approch: No cycle exists in lisked list")
-
-found = detectLoop(linked_list.head)
-if found:
-    print("Through marking visited nodes approch: Cycle exists in linked list")
-else:
-    print("Through marking visited nodes approch: No cycle exists in lisked list")
+print("\n***---------------------With Cycle in linked list---------------------***")
+Found(detectLoop_TwoPointer(linked_list.head))      # check if cycle exists through detectLoop_TwoPointer function
+Found(detectLoop_Hashing(linked_list.head))         # check if cycle exists through detectLoop_Hashing function
+Found(detectLoop(linked_list.head))                 # check if cycle exists through detectLoop function
 
 # Output:
 """
+***---------------------With Cycle in linked list---------------------***
 Through Two-Pointer approch: Cycle exists in linked list
 Through Hashing approch: Cycle exists in linked list
 Through marking visited nodes approch: Cycle exists in linked list
