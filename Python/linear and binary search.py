@@ -1,4 +1,4 @@
-#Heres a python code to search for an item in an array using 2 methods (linear and binary search)
+# Search for an item in an array using 2 methods (linear and binary search)
 
 def binsearch(ar,item): 
     low=0 
