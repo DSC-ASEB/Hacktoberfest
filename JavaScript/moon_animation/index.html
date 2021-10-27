@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scrolling animation</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<section>
+		<img src="./images/stars.png" id="stars">
+		<img src="./images/moon.png" id="moon">
+		<img src="./images/mountains_behind.png" id="mountain">
+		<h2 id="text"><span>At</span>om<span>.</span></h2>
+		<a href="#" id="btn">Start</a>
+		<img src="./images/mountains_front.png" id="rocks">
+	</section>
+
+
+	<script src="anime.min.js"></script>
+	<script>
+		let animation = anime.timeline({
+			autoplay:false
+		});
+		//add animation to star and btn ids
+		animation
+		.add({
+			targets:"#btn",
+			top:'1500px',
+			duration:800,
+			easing:'easeInOutSine'
+		})
+
+		.add({
+			targets:"#stars",
+			top:'0px',
+			duration:1000,
+			easing:'easeInOutSine'
+		})
+		
+		.add({
+			targets:"#moon",
+			top:'-5px',
+			duration:1300,
+			easing:'easeInOutBack'
+		})
+		
+		.add({
+			targets:"#mountain",
+			bottom:'0px',
+			duration:1100,
+			easing:'easeInOutSine'
+		})
+		.add({
+			targets:"#rocks",
+			bottom:'-5px',
+			duration:1400,
+			easing:'easeInOutSine'
+		})
+
+		.add({
+			targets:"#text",
+			marginRight:0,
+			duration:1500,
+			easing:'easeInOutBack'
+		})
+
+		.add({
+			targets:"#btn",
+			top:'50%',
+			duration:950,
+			easing:'easeInOutBack'
+		})
+
+		document.querySelector("#btn").onclick = animation.play
+	</script>
+</body>
+
+</html>
