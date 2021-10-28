@@ -20,6 +20,7 @@ Python is an easy to learn language many beginners to coding choose as their fir
 -   [Program to add two number](./addTwo.py)
 -   [Program which covers basic list operations](./listOperations.py)
 -   [Program to learn 4 pillars in Object-Oriented Programming in Python](./OOPS_four_pillars.py)
+-   [Program to detect circle in linked list in 3 different approches](./detect_loop_in_linkedList.py)
 
 ## Data Science with Python
 
