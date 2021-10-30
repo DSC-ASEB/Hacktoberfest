@@ -16,4 +16,3 @@ Report [here](https://github.com/DSC-ASEB/Hacktoberfest/issues/new) in detail an
 # How do I contact the team?
 
 Check [here](https://github.com/DSC-ASEB/Hacktoberfest/graphs/contributors) for the list of contributors. Contact one of them through their profiles.
-check [here](https://github.com/kanishkasrivastava/Hacktoberfest/graphs/contributors) for the list of contributors. Contact one of them through their profiles.
