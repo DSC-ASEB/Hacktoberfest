@@ -12,7 +12,6 @@ goto(100, -100)
 goto(-50, -60)
 goto(-50, 60)
 end_fill()
-
 color("black")
 goto(15, 100)
 color("black")
