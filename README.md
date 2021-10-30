@@ -1,18 +1,17 @@
 [<img src="https://user-images.githubusercontent.com/46235445/137481021-dd388436-7e06-41ea-be4b-4ce3c4e2f286.png" align="center">](https://hacktoberfest.digitalocean.com/)
 
-## 📝 About Hacktoberfest:
+# 📝 About Hacktoberfest:
 
-### What is Hacktoberfest?
+## What is Hacktoberfest?
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com) is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Dev.
 
 - Hacktoberfest is open to everyone in our global community!
 - Four quality pull requests must be submitted to public GitHub repositories.
 - You can sign up anytime between October 1 and October 31.
----
-### 📝 Note:
-``The Hacktoberfest Ends by October 31 (Today)``
 
+## ❗ Deadline:
+Hacktoberfest 2021 ends on October 31, 2021
 
 ## Resources:
 Listing a few git resources here for everyone.
@@ -55,19 +54,15 @@ All contributions are welcome! Code, documentation, graphics or even design sugg
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on contributing.
 
-
-
 # :scroll: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 See the full list of [contributors](CONTRIBUTING.md) who participated in this project and statistics.
 
 # :heavy_exclamation_mark: Prerequisites aka requirements
 
 Please read [Prerequisite](Prerequisite.md) file for details.
-
 
 # :scroll: I found some bugs or issues. Where do I report?
 
