@@ -5,6 +5,7 @@ int main()
 {
 
     int row, col;
+    cout << "Enter the number of rows and columns: ";
     cin >> row >> col;
 
     for (int i = 0; i < row; i++)
