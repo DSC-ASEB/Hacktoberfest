@@ -87,11 +87,13 @@ ostream &operator<<(ostream &out, Box &B)
 
 void check2()
 {
+	// choice
 	int n;
 	cin>>n;
 	Box temp;
 	for(int i=0;i<n;i++)
 	{
+		//type to choose
 		int type;
 		cin>>type;
 		if(type ==1)
@@ -100,6 +102,7 @@ void check2()
 		}
 		if(type == 2)
 		{
+			//length,breadth,height
 			int l,b,h;
 			cin>>l>>b>>h;
 			Box NewBox(l,b,h);
