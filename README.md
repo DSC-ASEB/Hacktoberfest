@@ -11,7 +11,7 @@
 - You can sign up anytime between October 1 and October 31.
 
 ## ❗ Deadline:
-Hacktoberfest 2021 ends on October 31, 2021
+Hacktoberfest 2022 ends on October 31, 2022
 
 ## Resources:
 Listing a few git resources here for everyone.
