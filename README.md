@@ -1,6 +1,6 @@
 [<img src="https://user-images.githubusercontent.com/46235445/137481021-dd388436-7e06-41ea-be4b-4ce3c4e2f286.png" align="center">](https://hacktoberfest.digitalocean.com/)
 
-# 📝 About Hacktoberfest:
+# 📝 Hacktoberfest
 
 ## What is Hacktoberfest?
 
